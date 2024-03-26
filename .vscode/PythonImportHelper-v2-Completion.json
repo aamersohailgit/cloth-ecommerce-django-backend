@@ -33,43 +33,11 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
         "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
+        "detail": "django.conf",
         "documentation": {}
     },
     {
@@ -105,6 +73,14 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -114,6 +90,54 @@
     },
     {
         "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
         "isExtraImport": true,
@@ -837,6 +861,14 @@
         "documentation": {}
     },
     {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
         "label": "DefaultRouter",
         "importPath": "rest_framework.routers",
         "description": "rest_framework.routers",
@@ -1452,7 +1484,7 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "RAZORPAY_KEY_ID = config(\"RAZORPAY_KEY_ID\")\nRAZORPAY_KEY_SECRET = config(\"RAZORPAY_KEY_SECRET\")",
+        "peekOfCode": "RAZORPAY_KEY_ID = config(\"RAZORPAY_KEY_ID\")\nRAZORPAY_KEY_SECRET = config(\"RAZORPAY_KEY_SECRET\")\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1461,7 +1493,25 @@
         "kind": 5,
         "importPath": "core.settings",
         "description": "core.settings",
-        "peekOfCode": "RAZORPAY_KEY_SECRET = config(\"RAZORPAY_KEY_SECRET\")",
+        "peekOfCode": "RAZORPAY_KEY_SECRET = config(\"RAZORPAY_KEY_SECRET\")\nMEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MEDIA_URL = \"/media/\"\nMEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
+        "detail": "core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR, \"media\")",
         "detail": "core.settings",
         "documentation": {}
     },
@@ -1646,6 +1696,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "products.migrations.0004_productmodel_location",
+        "description": "products.migrations.0004_productmodel_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0003_productmodel_remove_productimage_product_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='location',\n            field=models.CharField(blank=True, max_length=50),\n        ),",
+        "detail": "products.migrations.0004_productmodel_location",
+        "documentation": {}
+    },
+    {
         "label": "ProductsConfig",
         "kind": 6,
         "importPath": "products.apps",
@@ -1659,7 +1718,7 @@
         "kind": 6,
         "importPath": "products.models",
         "description": "products.models",
-        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=50, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.IntegerField()\n    images = models.ImageField(upload_to=\"photos/products\")\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)\n    modified_date = models.DateTimeField(auto_now=True)",
+        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=50, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.IntegerField()\n    images = models.ImageField(upload_to=\"photos/products\")\n    location = models.CharField(max_length=50, blank=True)\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
         "detail": "products.models",
         "documentation": {}
     },
@@ -1677,7 +1736,7 @@
         "kind": 5,
         "importPath": "products.urls",
         "description": "products.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"products\", ProductViewSet)\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(\"products\", ProductViewSet)\nurlpatterns = [\n    path(\"\", include(router.urls)),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "products.urls",
         "documentation": {}
     },
@@ -1686,7 +1745,7 @@
         "kind": 5,
         "importPath": "products.urls",
         "description": "products.urls",
-        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", include(router.urls)),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "products.urls",
         "documentation": {}
     },
@@ -1695,7 +1754,7 @@
         "kind": 6,
         "importPath": "products.views",
         "description": "products.views",
-        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    queryset = ProductModel.objects.all()\n    serializer_class = ProductSerializer\n    filter_backends = (SearchFilter,)\n    search_fields = (\"name\", \"description\")",
+        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    queryset = ProductModel.objects.all()\n    serializer_class = ProductSerializer\n    filter_backends = (SearchFilter,)\n    search_fields = (\"name\", \"description\", \"location\")",
         "detail": "products.views",
         "documentation": {}
     },

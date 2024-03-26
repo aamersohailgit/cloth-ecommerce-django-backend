@@ -220,3 +220,7 @@ SWAGGER_SETTINGS = {
 # Razorpay RAZOR_KEY_ID, RAZOR_KEY_SECRET added from .env file
 RAZORPAY_KEY_ID = config("RAZORPAY_KEY_ID")
 RAZORPAY_KEY_SECRET = config("RAZORPAY_KEY_SECRET")
+
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")

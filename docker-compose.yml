@@ -1,9 +1,11 @@
-version: '3'
-
 services:
   web:
     build: .
     volumes:
       - .:/app
+      - media_volume:/app/media
     ports:
       - "8000:8000"
+
+volumes:
+  media_volume: # Define the volume
