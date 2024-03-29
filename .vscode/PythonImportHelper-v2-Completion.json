@@ -201,6 +201,46 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -862,6 +902,14 @@
     },
     {
         "label": "ProductModel",
+        "importPath": "products.models",
+        "description": "products.models",
+        "isExtraImport": true,
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
+        "label": "StateModel",
         "importPath": "products.models",
         "description": "products.models",
         "isExtraImport": true,
@@ -1713,6 +1761,33 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
+        "description": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0004_productmodel_location'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='State',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
+        "detail": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
+        "description": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0005_state_productmodel_discount_alter_productmodel_price_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='StateModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
+        "detail": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
+        "description": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0006_statemodel_delete_state_alter_productmodel_states'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='statemodel',\n            name='boolean_value',\n        ),\n        migrations.RemoveField(",
+        "detail": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
+        "documentation": {}
+    },
+    {
         "label": "ProductsConfig",
         "kind": 6,
         "importPath": "products.apps",
@@ -1722,11 +1797,20 @@
         "documentation": {}
     },
     {
+        "label": "StateModel",
+        "kind": 6,
+        "importPath": "products.models",
+        "description": "products.models",
+        "peekOfCode": "class StateModel(models.Model):\n    name = models.CharField(max_length=100, unique=True)\n    description = models.TextField(blank=True)\n    def __str__(self):\n        return self.name\n    class Meta:\n        verbose_name = \"state\"\n        verbose_name_plural = \"states\"\nclass ProductModel(models.Model):\n    name = models.CharField(max_length=50)",
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
         "label": "ProductModel",
         "kind": 6,
         "importPath": "products.models",
         "description": "products.models",
-        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=50, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.IntegerField()\n    images = models.ImageField(upload_to=\"photos/products\")\n    location = models.CharField(max_length=50, blank=True)\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=50, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    images = models.ImageField(upload_to=\"photos/products\")\n    location = models.CharField(max_length=50, blank=True)\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
         "detail": "products.models",
         "documentation": {}
     },
