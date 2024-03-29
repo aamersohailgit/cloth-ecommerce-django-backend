@@ -861,6 +861,14 @@
         "documentation": {}
     },
     {
+        "label": "ProductModel",
+        "importPath": "products.models",
+        "description": "products.models",
+        "isExtraImport": true,
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
         "label": "static",
         "importPath": "django.conf.urls.static",
         "description": "django.conf.urls.static",
@@ -1754,7 +1762,7 @@
         "kind": 6,
         "importPath": "products.views",
         "description": "products.views",
-        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    queryset = ProductModel.objects.all()\n    serializer_class = ProductSerializer\n    filter_backends = (SearchFilter,)\n    search_fields = (\"name\", \"description\", \"location\")",
+        "peekOfCode": "class ProductViewSet(viewsets.ModelViewSet):\n    queryset = ProductModel.objects.all()\n    serializer_class = ProductSerializer\n    filter_backends = (SearchFilter,)\n    search_fields = (\"name\", \"description\", \"location\", \"price\")",
         "detail": "products.views",
         "documentation": {}
     },
