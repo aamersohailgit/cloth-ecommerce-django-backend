@@ -28,8 +28,7 @@ DEBUG = True
 
 from decouple import config, Csv
 
-# ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv(), default="")
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv(), default="")
 
 # Application definition
 
@@ -188,6 +187,12 @@ REST_AUTH = {
     "OLD_PASSWORD_FIELD_ENABLED": True,
 }
 
+# allowed core hearder
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
+
+CORS_ALLOW_CREDENTIALS = True
 
 # send email
 EMAIL_BACKEND = config("EMAIL_BACKEND")
@@ -215,19 +220,3 @@ SWAGGER_SETTINGS = {
 # Razorpay RAZOR_KEY_ID, RAZOR_KEY_SECRET added from .env file
 RAZORPAY_KEY_ID = config("RAZORPAY_KEY_ID")
 RAZORPAY_KEY_SECRET = config("RAZORPAY_KEY_SECRET")
-
-
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
-# CORS_ORIGIN_ALLOW_ALL = False
-# allowed core hearder
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://192.168.1.120:19000",
-    "http://10.0.2.2:8000",
-    "http://192.168.1.110:8000",
-]
-
-CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_ALL_ORIGINS = True
