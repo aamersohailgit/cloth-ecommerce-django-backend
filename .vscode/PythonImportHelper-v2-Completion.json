@@ -1909,7 +1909,7 @@
         "kind": 6,
         "importPath": "pushnotifications.views",
         "description": "pushnotifications.views",
-        "peekOfCode": "class ExpoPushTokensListView(generics.ListAPIView):\n    queryset = ExpoPushToken.objects.all()\n    serializer_class = ExpoPushTokenSerializer\n    filter_backends = [DjangoFilterBackend]\n    filterset_fields = ['user__id']\nclass ExpoPushTokenDetailView(generics.RetrieveAPIView):\n    queryset = ExpoPushToken.objects.all()\n    serializer_class = ExpoPushTokenSerializer\n    # permission_classes = [IsAuthenticated]\n    lookup_field = 'id'",
+        "peekOfCode": "class ExpoPushTokensListView(generics.ListAPIView):\n    queryset = ExpoPushToken.objects.all()\n    serializer_class = ExpoPushTokenSerializer\n    filter_backends = [DjangoFilterBackend]\n    filterset_fields = ['user__id', 'token']\nclass ExpoPushTokenDetailView(generics.RetrieveAPIView):\n    queryset = ExpoPushToken.objects.all()\n    serializer_class = ExpoPushTokenSerializer\n    # permission_classes = [IsAuthenticated]\n    lookup_field = 'id'",
         "detail": "pushnotifications.views",
         "documentation": {}
     },

@@ -19,13 +19,13 @@ class ExpoPushTokenView(APIView):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
+
 class ExpoPushTokensListView(generics.ListAPIView):
     queryset = ExpoPushToken.objects.all()
     serializer_class = ExpoPushTokenSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['user__id']
-    
+    filterset_fields = ['user__id', 'token']
+
 class ExpoPushTokenDetailView(generics.RetrieveAPIView):
     queryset = ExpoPushToken.objects.all()
     serializer_class = ExpoPushTokenSerializer
