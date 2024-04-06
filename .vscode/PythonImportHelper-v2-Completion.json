@@ -81,6 +81,38 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -169,78 +201,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -278,6 +238,30 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -398,6 +382,22 @@
         "description": "django.utils.translation",
         "isExtraImport": true,
         "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -601,6 +601,22 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "path",
         "importPath": "django.urls",
         "description": "django.urls",
@@ -618,6 +634,14 @@
     },
     {
         "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -713,6 +737,22 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "JsonResponse",
         "importPath": "django.http",
         "description": "django.http",
@@ -750,6 +790,30 @@
         "description": "dj_rest_auth.registration.views",
         "isExtraImport": true,
         "detail": "dj_rest_auth.registration.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProductModel",
+        "importPath": "store.models",
+        "description": "store.models",
+        "isExtraImport": true,
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "VariationModel",
+        "importPath": "store.models",
+        "description": "store.models",
+        "isExtraImport": true,
+        "detail": "store.models",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "importPath": "core.settings",
+        "description": "core.settings",
+        "isExtraImport": true,
+        "detail": "core.settings",
         "documentation": {}
     },
     {
@@ -901,6 +965,14 @@
         "documentation": {}
     },
     {
+        "label": "ProductGalleryModel",
+        "importPath": "products.models",
+        "description": "products.models",
+        "isExtraImport": true,
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
         "label": "ProductModel",
         "importPath": "products.models",
         "description": "products.models",
@@ -909,11 +981,11 @@
         "documentation": {}
     },
     {
-        "label": "StateModel",
-        "importPath": "products.models",
-        "description": "products.models",
+        "label": "Category",
+        "importPath": "category.models",
+        "description": "category.models",
         "isExtraImport": true,
-        "detail": "products.models",
+        "detail": "category.models",
         "documentation": {}
     },
     {
@@ -1173,6 +1245,69 @@
         "description": "accounts.views",
         "peekOfCode": "def reset_password_confirm(request, uid, token):\n    return redirect(f\"http://localhost:3000/reset/password/confirm/{uid}/{token}\")\n# create RoleView class\nclass RoleView(viewsets.ModelViewSet):\n    queryset = RoleModel.objects.all()\n    serializer_class = RoleSerializer",
         "detail": "accounts.views",
+        "documentation": {}
+    },
+    {
+        "label": "CartsConfig",
+        "kind": 6,
+        "importPath": "carts.apps",
+        "description": "carts.apps",
+        "peekOfCode": "class CartsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'carts'",
+        "detail": "carts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CartModel",
+        "kind": 6,
+        "importPath": "carts.models",
+        "description": "carts.models",
+        "peekOfCode": "class CartModel(models.Model):\n    cart_id = models.CharField(max_length=250, blank=True)\n    date_added = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.cart_id\n    # verbose\n    class Meta:\n        verbose_name = \"Cart\"\n        verbose_name_plural = \"Carts\"\n# Create CartItemModel",
+        "detail": "carts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CartItemModel",
+        "kind": 6,
+        "importPath": "carts.models",
+        "description": "carts.models",
+        "peekOfCode": "class CartItemModel(models.Model):\n    user = models.ForeignKey(AUTH_USER_MODEL, on_delete=models.CASCADE, null=True)\n    product = models.ForeignKey(ProductModel, on_delete=models.CASCADE)\n    variations = models.ManyToManyField(VariationModel, blank=True)\n    cart = models.ForeignKey(CartModel, on_delete=models.CASCADE, null=True)\n    quantity = models.IntegerField()\n    is_active = models.BooleanField(default=True)\n    def sub_total(self):\n        return self.product.price * self.quantity\n    def __unicode__(self):",
+        "detail": "carts.models",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "category.migrations.0001_initial",
+        "description": "category.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(db_index=True, max_length=255)),",
+        "detail": "category.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryAdmin",
+        "kind": 6,
+        "importPath": "category.admin",
+        "description": "category.admin",
+        "peekOfCode": "class CategoryAdmin(admin.ModelAdmin):\n    list_display = (\"id\", \"name\", \"slug\")\n    prepopulated_fields = {\"slug\": (\"name\",)}\n    search_fields = (\"name\",)\n# Register your Category model\nadmin.site.register(Category, CategoryAdmin)",
+        "detail": "category.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CategoryConfig",
+        "kind": 6,
+        "importPath": "category.apps",
+        "description": "category.apps",
+        "peekOfCode": "class CategoryConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'category'",
+        "detail": "category.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Category",
+        "kind": 6,
+        "importPath": "category.models",
+        "description": "category.models",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=255, db_index=True)\n    slug = models.SlugField(max_length=255, unique=True)\n    description = models.CharField(max_length=255, blank=True)\n    image = models.ImageField(upload_to=\"photos/categories\", blank=True)\n    class Meta:\n        verbose_name = \"category\"\n        verbose_name_plural = \"categories\"\n    def __str__(self):\n        return self.name",
+        "detail": "category.models",
         "documentation": {}
     },
     {
@@ -1711,62 +1846,26 @@
         "kind": 6,
         "importPath": "products.migrations.0001_initial",
         "description": "products.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=255)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('category', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='StateModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "products.migrations.0001_initial",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "products.migrations.0002_productimage",
-        "description": "products.migrations.0002_productimage",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProductImage',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('image', models.ImageField(upload_to='products/%Y/%m/%d/')),",
-        "detail": "products.migrations.0002_productimage",
+        "importPath": "products.migrations.0002_remove_productmodel_states_alter_productmodel_slug",
+        "description": "products.migrations.0002_remove_productmodel_states_alter_productmodel_slug",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='productmodel',\n            name='states',\n        ),\n        migrations.AlterField(",
+        "detail": "products.migrations.0002_remove_productmodel_states_alter_productmodel_slug",
         "documentation": {}
     },
     {
-        "label": "Migration",
+        "label": "ProductAdmin",
         "kind": 6,
-        "importPath": "products.migrations.0003_productmodel_remove_productimage_product_and_more",
-        "description": "products.migrations.0003_productmodel_remove_productimage_product_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0002_productimage'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ProductModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=50)),",
-        "detail": "products.migrations.0003_productmodel_remove_productimage_product_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "products.migrations.0004_productmodel_location",
-        "description": "products.migrations.0004_productmodel_location",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0003_productmodel_remove_productimage_product_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='productmodel',\n            name='location',\n            field=models.CharField(blank=True, max_length=50),\n        ),",
-        "detail": "products.migrations.0004_productmodel_location",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
-        "description": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0004_productmodel_location'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='State',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
-        "detail": "products.migrations.0005_state_productmodel_discount_alter_productmodel_price_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
-        "description": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0005_state_productmodel_discount_alter_productmodel_price_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='StateModel',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, unique=True)),",
-        "detail": "products.migrations.0006_statemodel_delete_state_alter_productmodel_states",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
-        "description": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0006_statemodel_delete_state_alter_productmodel_states'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='statemodel',\n            name='boolean_value',\n        ),\n        migrations.RemoveField(",
-        "detail": "products.migrations.0007_remove_statemodel_boolean_value_and_more",
+        "importPath": "products.admin",
+        "description": "products.admin",
+        "peekOfCode": "class ProductAdmin(admin.ModelAdmin):\n    list_display = [\"id\", \"name\", \"price\", \"stock\", \"is_available\", \"created_date\"]\n    prepopulated_fields = {\"slug\": (\"name\",)}\nadmin.site.register(ProductModel, ProductAdmin)\nadmin.site.register(ProductGalleryModel)",
+        "detail": "products.admin",
         "documentation": {}
     },
     {
@@ -1792,7 +1891,16 @@
         "kind": 6,
         "importPath": "products.models",
         "description": "products.models",
-        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=50, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    images = models.ImageField(upload_to=\"photos/products\")\n    location = models.CharField(max_length=50, blank=True)\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "peekOfCode": "class ProductModel(models.Model):\n    name = models.CharField(max_length=50)\n    slug = models.SlugField(max_length=500, unique=True)\n    description = models.TextField(max_length=500, blank=True)\n    price = models.DecimalField(max_digits=10, decimal_places=2)\n    images = models.ImageField(upload_to=\"photos/products\")\n    location = models.CharField(max_length=50, blank=True)\n    stock = models.IntegerField()\n    is_available = models.BooleanField(default=True)\n    created_date = models.DateTimeField(auto_now_add=True)",
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductGalleryModel",
+        "kind": 6,
+        "importPath": "products.models",
+        "description": "products.models",
+        "peekOfCode": "class ProductGalleryModel(models.Model):\n    product = models.ForeignKey(ProductModel, on_delete=models.CASCADE)\n    image = models.ImageField(upload_to=\"photos/products/gallery\")\n    created_at = models.DateTimeField(auto_now_add=True)\n    updated_at = models.DateTimeField(auto_now=True)\n    def __str__(self):\n        return self.product.name\n    class Meta:\n        verbose_name = \"product gallery\"\n        verbose_name_plural = \"product gallery\"",
         "detail": "products.models",
         "documentation": {}
     },

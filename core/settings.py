@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "allauth.socialaccount.providers.google",
     "drf_yasg",
+    "category",
     "payment",
     "accounts",
     "pushnotifications",

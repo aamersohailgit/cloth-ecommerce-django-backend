@@ -35,3 +35,4 @@ urllib3==2.2.1
 razorpay
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.23.0
+django-admin-thumbnails==0.2.8

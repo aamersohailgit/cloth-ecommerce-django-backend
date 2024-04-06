@@ -50,9 +50,10 @@ urlpatterns = [
     ),
     # admin
     path("admin/", admin.site.urls),
-    path("hello/", hello_world),
-    path("", include("accounts.urls")),
-    path("", include("pushnotifications.urls")),
+    # path("", include("accounts.urls")),
+    # path("", include("pushnotifications.urls")),
     path("", include("payment.urls")),
+    # path("", include("category.urls")),
     path("", include("products.urls")),
+    # path("", include("carts.urls")),
 ]
