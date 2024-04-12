@@ -36,3 +36,4 @@ razorpay
 fuzzywuzzy==0.18.0
 python-Levenshtein==0.23.0
 django-admin-thumbnails==0.2.8
+psycopg2-binary>=2.8
